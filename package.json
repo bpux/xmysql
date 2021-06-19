@@ -4,7 +4,7 @@
   "description": "One command to generate REST APIs for any MySql database",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/*.js --exit"
+    "test": "mocha tests/*.js --exit"
   },
   "keywords": [
     "mysql-rest-api-generator",
@@ -19,7 +19,10 @@
   "bin": {
     "xmysql": "bin/index.js"
   },
-  "repository": "o1lab/xmysql",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o1lab/xmysql.git"
+  },
   "homepage": "https://github.com/o1lab/xmysql",
   "author": "o1lab",
   "license": "MIT",
@@ -44,5 +47,13 @@
     "should": "^13.1.2",
     "sleep": "^6.1.0",
     "supertest": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/o1lab/xmysql/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
   }
 }

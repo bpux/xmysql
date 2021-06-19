@@ -33,7 +33,7 @@ function startXmysql(sqlConfig) {
   console.log("");
   console.log("");
   console.log("");
-  console.log("          Generating REST APIs at the speed of your thought.. ");
+  console.log("       =============   Generating REST APIs at the speed of your thought.. ");
   console.log("");
 
   let t = process.hrtime();
